@@ -13,6 +13,7 @@ yarn.lock
 .env.development
 .env.production
 .env.test
+.env.backup
 
 # Build output
 dist/
@@ -77,4 +78,10 @@ swagger.json
 *~
 
 # Local development
-.local/ 
+.local/
+
+# Secrets and keys
+*secret*
+*key*
+*password*
+*credential* 
